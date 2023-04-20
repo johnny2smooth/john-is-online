@@ -32,58 +32,12 @@ export default function Home() {
       ></div>
 
       {/* highlight reel */}
-      <div className="max-w-prose">
+      <div className="max-w-prose stack">
         <h1 className="text-2xl">About me</h1>
         <SelectBio
           shortBio={["hello", "short"]}
           longBio={["longer", "longer", "longer"]}
         />
-        <div className="flex items-center">
-          <button className="border-2 border-green-400 border-solid py-1 px-2">
-            short version
-          </button>
-          <span> ||| </span>
-          <button className="border-2 border-green-200  border-solid py-1 px-2">
-            long version
-          </button>
-        </div>
-        <h2>Breadth and Depth of job experience</h2>
-        <p>I ship code for a research team at the University of Washington</p>
-        <p>
-          I engineer front end components with React, JavaScript, CSS, and HTML.
-          I use Ruby on Rails as a back end framework to communicate with our
-          servers and mutate data. I am a believer in using SOLID principles to
-          compose reusable, testable, and performant code.
-        </p>
-        <h2>Top Achievements</h2>
-        <p>My top achievements are</p>
-        <ol>
-          <li>1. heh</li>
-          <li>2. bleh</li>
-          <li>3. meh</li>
-        </ol>
-        <h2>Educational Background</h2>
-        <p>
-          My background in Comparative History of Ideas and Entreprenuership
-          give me the framework to critically think through code composition in
-          a *blank* way. Which ways?? In fact, during my Summer in the Arts and
-          Humanities Scholarship titled <em>Creating Alternate Futures</em> is
-          what inspired me to begin creating technical solutions to the problems
-          I wanted to tackle in the real world
-        </p>
-        <h2>
-          Why I am passionate about engineering and demonstrations of the
-          passion
-        </h2>
-        <p>
-          I am obsessed with coding. Not in a weird way, but in a way where I am
-          just so inspired by what I see around me. I do research about what is
-          hot and new, best practices, I listen to podcasts and watch videos
-          about software eng. Most of all, I like to build stuff in my own time.
-          I practice every day so that I can be a great teammate and make an
-          impact.
-        </p>
-        <p></p>
 
         <p>Include drawings and such</p>
       </div>
