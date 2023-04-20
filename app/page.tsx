@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import SelectBio from "./select-bio";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +34,10 @@ export default function Home() {
       {/* highlight reel */}
       <div className="max-w-prose">
         <h1 className="text-2xl">About me</h1>
+        <SelectBio
+          shortBio={["hello", "short"]}
+          longBio={["longer", "longer", "longer"]}
+        />
         <div className="flex items-center">
           <button className="border-2 border-green-400 border-solid py-1 px-2">
             short version
