@@ -71,38 +71,30 @@ function ShortBio() {
         <span className="text-orange-400">HTML</span>.
       </p>
       <ol className="stack">
-        <h2 className="text-lg">My top accomplishments</h2>
+        <h2 className="text-2xl underline underline-offset-4">
+          My Top Accomplishments
+        </h2>
         <li>
-          <span className="text-green-400">1.</span> I{' '}
-          <span className="text-blue-400">saved the team</span> over{' '}
-          <span className="text-pink-400">200 hours</span> by building a{' '}
-          <span className="text-purple-400">web interface</span> which uses{' '}
-          <span className="text-green-400">AI to transcribe</span> all user
-          interview <span className="text-sky-400">audio files</span>.
+          <span className="text-lg font-bold">1.</span> I saved the team over{' '}
+          <span className="text-pink-400">250 hours</span> by building a web
+          interface which uses AI to transcribe all user interview audio files.
         </li>
         <li>
-          <span className="text-green-400">2.</span> I{' '}
-          <span className="text-yellow-400">
-            revived our internal data viz dashboard
-          </span>{' '}
-          which was then turned into a monthly{' '}
-          <span className="text-indigo-400">12 page monthly report</span>. The
-          report was sent to{' '}
-          <span className="text-lime-400">
-            {' '}
-            Doctors in Indonesia and Argentina
-          </span>
-          .
+          <span className="text-lg font-bold">2.</span> I revived our internal{' '}
+          <span className="text-yellow-400">data viz dashboard</span> which was
+          then turned into a monthly 12 page monthly report. The report was sent
+          to Doctors in Indonesia and Argentina.
         </li>
         <li>
-          <span className="text-green-400">3.</span> I{' '}
-          <span className="text-orange-400">Internationalized</span> our
-          marketing website. It{' '}
+          <span className="text-lg font-bold">3.</span> I redesigned and
+          internationalized our team&apos;s home website. It{' '}
           <span className="text-red-400">dynamically translates</span> itself
           based on a visitor&apos;s browser preferences.
         </li>
       </ol>
-      <h2 className="text-lg">Education</h2>
+      <h2 className="text-2xl underline underline-offset-4">
+        Education & More
+      </h2>
       <p>
         I studied{' '}
         <span className="text-purple-300">
@@ -125,9 +117,7 @@ function ShortBio() {
         .{' '}
       </p>
       <p>
-        I spend my <span className="text-red-400">free time</span> studying
-        software and{' '}
-        <span className="text-blue-400">building personal projects</span> so
+        I spend my free time studying software and building personal projects so
         that I can become a great developer.
       </p>
     </>
@@ -142,6 +132,11 @@ function LongBio() {
         Washington. I engineer front end components with{' '}
         <span className="text-blue-400">React</span>,{' '}
         <span className="text-yellow-400">JavaScript</span>,{' '}
+        <span className="text-emerald-400">TypeScript</span>,{' '}
+        <span className="text-rose-400">postgreSQL</span>,{' '}
+        <span className="text-blue-400">Docker</span>,{' '}
+        <span className="text-pink-400">Github</span>,{' '}
+        <span className="text-lime-400">Tailwind</span>,{' '}
         <span className="text-purple-400">CSS</span>, and{' '}
         <span className="text-orange-400">HTML</span>. I use{' '}
         <span className="text-red-400">Ruby on Rails</span> as a back end
@@ -151,38 +146,30 @@ function LongBio() {
         reusable, testable, and performant code.
       </p>
       <ol className="stack">
-        <h2 className="text-lg">My top accomplishments</h2>
+        <h2 className="text-2xl underline underline-offset-4">
+          My Top Accomplishments
+        </h2>
         <li>
-          <span className="text-green-400">1.</span> I{' '}
-          <span className="text-blue-400">saved the team</span> over{' '}
-          <span className="text-pink-400">200 hours</span> by building a{' '}
-          <span className="text-purple-400">web interface</span> which uses{' '}
-          <span className="text-green-400">AI to transcribe</span> all user
-          interview <span className="text-sky-400">audio files</span>.
+          <span className="text-lg font-bold">1.</span> I saved the team over{' '}
+          <span className="text-pink-400">250 hours</span> by building a web
+          interface which uses AI to transcribe all user interview audio files.
         </li>
         <li>
-          <span className="text-green-400">2.</span> I{' '}
-          <span className="text-yellow-400">
-            revived our internal data viz dashboard
-          </span>{' '}
-          which was then turned into a monthly{' '}
-          <span className="text-indigo-400">12 page monthly report</span>. The
-          report was sent to{' '}
-          <span className="text-lime-400">
-            {' '}
-            Doctors in Indonesia and Argentina
-          </span>
-          .
+          <span className="text-lg font-bold">2.</span> I revived our internal{' '}
+          <span className="text-yellow-400">data viz dashboard</span> which was
+          then turned into a monthly 12 page monthly report. The report was sent
+          to Doctors in Indonesia and Argentina.
         </li>
         <li>
-          <span className="text-green-400">3.</span> I{' '}
-          <span className="text-orange-400">Internationalized</span> our
-          marketing website. It{' '}
+          <span className="text-lg font-bold">3.</span> I redesigned and
+          internationalized our team&apos;s home website. It{' '}
           <span className="text-red-400">dynamically translates</span> itself
           based on a visitor&apos;s browser preferences.
         </li>
       </ol>
-      <h2 className="text-lg">Education</h2>
+      <h2 className="text-2xl underline underline-offset-4">
+        Education & More
+      </h2>
       <p>
         My background in{' '}
         <span className="text-purple-300">
@@ -191,15 +178,6 @@ function LongBio() {
             className="underline underline-offset-2"
           >
             Comparative History of Ideas
-          </a>
-        </span>{' '}
-        and{' '}
-        <span className="text-green-300">
-          <a
-            href="https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/undergraduate-entrepreneurship/"
-            className="underline underline-offset-2"
-          >
-            Entrepreneurship
           </a>
         </span>{' '}
         gives me the framework to critically think through problem solving &
@@ -218,6 +196,21 @@ function LongBio() {
         possibilities what a programmer can create, and I was hooked.
       </p>
       <p>
+        Studying{' '}
+        <span className="text-green-300">
+          <a
+            href="https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/undergraduate-entrepreneurship/"
+            className="underline underline-offset-2"
+          >
+            Entrepreneurship
+          </a>
+        </span>{' '}
+        gives me a customer-centric framework to create products with. First and
+        foremost, I want to solve User problems. As a developer, I&apos;ve found
+        it incredibly valuable to iterate the product based on what my users are
+        saying.
+      </p>
+      <p>
         I am <span className="text-emerald-400">obsessed</span> with coding. Not
         in a weird way... but I am VERY inspired by what I see around me. I
         research new technologies and frameworks like Next.js and Solid.js,
@@ -230,7 +223,7 @@ function LongBio() {
           Exercism
         </a>
         . Most of all, I like to build stuff in my own time. I practice every
-        day so that I can be a great teammate and make an impact.
+        day so that I can be a great teammate and make impact contributions.
       </p>
     </>
   );
