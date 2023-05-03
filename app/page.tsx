@@ -9,27 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center py-8 px-2 justify-start font-mono stack">
-      {/* sticky nav */}
-      <nav className="w-full">
-        <h1 className="text-4xl text-center">John is Online</h1>
-        {/* <ul className="flex justify-around">
-          <li>
-            <Link href="/projects">projects</Link>
-          </li>
-          <li>
-            <Link href="/writing">writing</Link>
-          </li>
-        </ul> */}
-      </nav>
-
-      {/* animate swirls */}
-
       <div className="relative w-[200px] h-[260px] flex">
-        <div className="py-16">
-          <Cloud />
-        </div>
+        <Cloud />
       </div>
-
       {/* highlight reel */}
       <div className="max-w-prose border-t-2 border-b-2 border-solid border-white bg-red p-2 stack">
         <h1 className="text-3xl">About me</h1>
