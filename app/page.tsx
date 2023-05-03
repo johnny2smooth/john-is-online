@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import SelectBio from "./select-bio";
+import Cloud from "./cloud";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,17 +23,15 @@ export default function Home() {
       </nav>
 
       {/* animate swirls */}
-      {/* <div
-        style={{
-          inlineSize: "24ch",
-          aspectRatio: 1,
-          backgroundColor: "#fff",
-          borderRadius: "50%",
-        }}
-      ></div> */}
+
+      <div className="relative w-[200px] h-[260px] flex">
+        <div className="py-16">
+          <Cloud />
+        </div>
+      </div>
 
       {/* highlight reel */}
-      <div className="max-w-prose border-t-2 border-b-2 border-solid border-white p-2 stack">
+      <div className="max-w-prose border-t-2 border-b-2 border-solid border-white bg-red p-2 stack">
         <h1 className="text-3xl">About me</h1>
         <SelectBio />
       </div>
