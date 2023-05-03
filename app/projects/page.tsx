@@ -8,15 +8,7 @@ export default function Projects() {
           {/* include the wave from whisper */}
           <caption>4/2/23</caption>
           <h3>a short description</h3>
-          <Link href="whisper" className="self-end">
-            &rarr;
-          </Link>
-        </li>
-        <li className="flex flex-col">
-          <h2 className="text-4xl">Whisper transcriptions</h2>
-          {/* include the wave from whisper */}
-          <h3>a short description</h3>
-          <Link href="whisper" className="self-end">
+          <Link href="whisper" className="self-end text-4xl">
             &rarr;
           </Link>
         </li>
