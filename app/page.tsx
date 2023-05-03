@@ -8,10 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center py-8 px-2 justify-start font-mono stack">
-      <div className="relative w-[200px] h-[260px] flex">
-        <Cloud />
-      </div>
+    <>
       {/* highlight reel */}
       <div className="max-w-prose border-t-2 border-b-2 border-solid border-white bg-red p-2 stack">
         <h1 className="text-3xl">About me</h1>
@@ -33,6 +30,6 @@ export default function Home() {
       </div>
       {/* <h2>BIG SPACE</h2>
       <div>real photos</div> */}
-    </main>
+    </>
   );
 }
