@@ -25,14 +25,14 @@ export default function RootLayout({
                 projects
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="underline underline-offset-4" href="/writing">
                 writing
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
-        <main className="flex min-h-screen flex-col items-center px-2 justify-start stack">
+        <main className="flex min-h-screen flex-col items-center px-4 justify-start stack">
           <div className="relative w-[200px] h-[260px] flex">
             <Cloud />
           </div>

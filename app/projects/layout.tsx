@@ -5,7 +5,7 @@ export default function ProjectLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex min-h-screen flex-col items-center py-8 px-2 justify-start font-mono stack">
+    <div className="stack">
       <nav className="self-start">
         <ul className="flex gap-2">
           <li className="underline underline-offset-2">
@@ -18,6 +18,6 @@ export default function ProjectLayout({
         </ul>
       </nav>
       {children}
-    </main>
+    </div>
   );
 }
