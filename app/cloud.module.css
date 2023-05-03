@@ -1,0 +1,60 @@
+.blurCircle[data-v-1090a973] {
+  width: 200px;
+  height: 200px;
+  background: var(--circle-glow);
+  border-radius: 50%;
+  position: absolute;
+  transition: 0.5s all ease;
+  filter: blur(15px);
+  z-index: 10;
+}
+
+.hoverOpacity {
+  opacity: 0.7;
+  transition: all ease-in 2s;
+}
+
+.hoverOpacity:hover {
+  opacity: 1;
+}
+
+.blurCircle[data-v-1090a973]:hover {
+  opacity: 1;
+}
+
+.blurCircle[data-v-1090a973]:nth-child(1) {
+  top: 2ch;
+  left: 0ch;
+  transform-origin: calc(50%) calc(50%);
+  animation: rotate 4.5s linear infinite;
+}
+
+.blurCircle[data-v-1090a973]:nth-child(2) {
+  top: 6ch;
+  left: 0ch;
+  transform-origin: calc(50%) calc(50%);
+  animation: rotate 4.5s 0.5s linear infinite;
+}
+
+.blurCircle[data-v-1090a973]:nth-child(3) {
+  top: 4ch;
+  left: 2ch;
+  transform-origin: calc(50%) calc(50%);
+  animation: rotate 4.5s 1s linear infinite;
+}
+
+.blurCircle[data-v-1090a973]:nth-child(4) {
+  top: 4ch;
+  left: -2ch;
+  transform-origin: calc(50%) calc(50%);
+  animation: rotate 4.5s 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
