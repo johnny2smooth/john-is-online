@@ -46,3 +46,28 @@ body {
 .stack > * + * {
   margin-block-start: var(--space, 1.5rem);
 }
+
+.sinWave {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  animation: sinWave 1 ease 100 infinite;
+}
+
+.sinWaveBar {
+  height: 100%;
+  position: absolute;
+}
+
+@keyframes sinWave {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}

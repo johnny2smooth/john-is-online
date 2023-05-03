@@ -32,7 +32,7 @@ export default function RootLayout({
             </li>
           </ul>
         </nav>
-        <main className="flex min-h-screen flex-col items-center px-2 justify-start stack">
+        <main className="flex min-h-screen flex-col items-center px-4 justify-start stack">
           <div className="relative w-[200px] h-[260px] flex">
             <Cloud />
           </div>
