@@ -17,7 +17,8 @@ export default function Projects() {
           </div>
           <h3 className="grow">
             Using Replicate and openai/whisper to save 100s of transciption
-            hours.
+            hours. BTW, this is a zombie project and I think that my supabase
+            instance has been put to sleep!
           </h3>
           <a
             href="https://github.com/johnny2smooth/whisper-replicate"
