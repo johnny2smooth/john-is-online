@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="font-mono">
         <nav className="w-full sticky top-0 z-50 bg-gradient-to-b from-black  to-[rgba(0,0,0,.8)] py-2 stack">
           <h1 className="text-4xl text-center">
-            <Link href="/">John is Online</Link>
+            <Link href="/">John B. Peterson</Link>
           </h1>
           <ul className="flex justify-center gap-8">
             <li>
