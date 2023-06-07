@@ -2,7 +2,18 @@
 
 ## Courses
 
+### Currently Exploring
+
 - [ ] [UX Design](https://roadmap.sh/ux-design) (Roadmap)
+
+#### Supplemental Materials
+
+- [ ] [CAPS LOCK](https://valiz.nl/images/publicaties/CAPS_LOCK/CAPS_LOCK_EDUCATIONALTOOLKIT.pdf)
+
+- [ ] [The Ethical Use of Persuasive Technology](https://behaviordesign.stanford.edu/ethical-use-persuasive-technology)
+
+### Next Topics to Explore
+
 - [ ] [Node.js](https://roadmap.sh/nodejs) (Roadmap)
 - [ ] [CSS](https://web.dev/learn/css/) (web.dev)
 
@@ -14,6 +25,11 @@ Learning how to learn has taught me that the two most important aspects of solid
 
 ### John's End of the Day Notes
 
+**UX**: 6-6-23 
+
+_I have decided that it will be better to focus on one topic at a time during this summer course. I want to dive deeply into the subject matter for consecutive days at a time so that I'm able to create a space for it in my brain. So instead of having different courses, I will ammend this document to tackle one topic at a time, but I will include materials that I can cross off instead. I am adding [CAPS LOCK](https://valiz.nl/images/publicaties/CAPS_LOCK/CAPS_LOCK_EDUCATIONALTOOLKIT.pdf) to my list of materials that will supplement this UX journey.
+
 **UX**: 6-5-23 
 
 _From my priliminary reading of Roadmap's overview of UX, I have come to the conclusion that a UX designer's main function is to manipulate the user. We live in a world of wealth extraction and a UX designer finds their purpose in lubrating that transaction through empathy, understanding, and support._
+

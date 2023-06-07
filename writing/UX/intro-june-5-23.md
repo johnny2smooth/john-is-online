@@ -1,6 +1,6 @@
 # Today's notes
 
-June 6th 2023
+June 5th 2023
 
 ## Understanding Human Decision Making
 
