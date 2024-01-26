@@ -60,6 +60,8 @@ function ShortBio() {
     <>
       <p>
         Full stack engineer who loves to work with{" "}
+        <span className="text-blue-100">Rails</span>,{" "}
+        <span className="text-blue-100">Hotwire</span>,{" "}
         <span className="text-blue-100">React</span>,{" "}
         <span className="text-yellow-100">JavaScript</span>,{" "}
         <span className="text-emerald-100">TypeScript</span>,{" "}
@@ -130,6 +132,8 @@ function LongBio() {
       <p>
         Currently shipping code for a research team at the University of
         Washington. I engineer front end components with{" "}
+        <span className="text-blue-100">Rails</span>,{" "}
+        <span className="text-blue-100">Hotwire</span>,{" "}
         <span className="text-blue-100">React</span>,{" "}
         <span className="text-yellow-100">JavaScript</span>,{" "}
         <span className="text-emerald-100">TypeScript</span>,{" "}
@@ -213,9 +217,9 @@ function LongBio() {
       <p>
         I am <span className="text-emerald-100">obsessed</span> with coding. Not
         in a weird way... but I am VERY inspired by what I see around me. I
-        research new technologies and frameworks like Next.js and Solid.js,
-        investigate tried-and-true best practices taught by Uncle Bob, practice
-        my problem solving skills every day on{" "}
+        research new technologies and frameworks like Rails, Next.js and Solid.js,
+        investigate tried-and-true best practices, practice
+        my problem solving skills on{" "}
         <a
           href="https://exercism.org/profiles/johnny2smooth"
           className="underline underline-offset-2 text-violet-100"
